@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1.0">
+    <title>Cadastro Centro de Reciclagem</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        
+    }
+
+    header {
+        text-align: center;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    section {
+        margin-bottom: 5px;
+    }
+
+    h2 {
+        color: #0f1310;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 5px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #4CAF50;;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+    
+
+<header>
+    <h1>Cadastro Centro de Reciclagem</h1>
+</header>
+
+<footer>
+    <p>&copy; 2023 Reciclagem Sustentável</p>
+</footer>
+
+
+
+    <h2>Cadastro</h2>
+
+    <form action="/processar_cadastro" method="post">
+        <section>
+        <!-- Campo Nome -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        </section>
+
+        <section>
+        <!-- Campo Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        </section>
+
+        <section>
+        <!-- Campo Contato -->
+        <label for="contato">Contato:</label>
+        <input type="contato" id="contato" name="contato" required>
+        </section>
+
+        <section>
+        <!-- Campo Placa do veiculo -->
+        <label for="placa do veiculo">Placa do veiculo:</label>
+        <input type="placa do veiculo" id="placa do veiculo" name="placa do veiculo" required>
+        </section>
+
+        <section>
+        <!-- Botão de Envio -->
+        <input type="submit" value="Cadastrar">
+        </section>
+    </form>
+
+</body>
+
+ 
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1.0">
+    <title>Agendamentos Centro de Reciclagem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        section {
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            color: #0f1310;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Centro de Reciclagem</h1>
+    </header>
+
+    <section>
+        <h2>Bognor Regis </h2>
+        <p>Shripney Road,Bognor Regis,West Sussex,PO22 9SX.</p>
+        <p><a href="http://127.0.0.1:5500/Cadastro.html"target="_blank" rel="noopener noreferrer"><button>Selecione</button></a></p>
+        
+        <script>
+            function getLocation() {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                } else {
+                    alert("Geolocalizacao nao e suportada pelo seu navegador.");
+                }
+                
+            }
+
+            function showPosition(position) {
+                var latitude = position.coords.latitude;
+                var longitude = position.coords.longitude;
+
+                alert("Latitude:" + latitude + "\nLongitude:" + longitude);
+            }
+        </script>
+    
+
+        
+    </section>
+
+    <section>
+        <h2>Crawley</h2>
+        <p>Metcalf Way,Crawley,West Sussex,RH11 7XN</p>
+        <p><a href="http://127.0.0.1:5500/Cadastro.html"target="_blank" rel="noopener noreferrer"><button>Selecione</button></a></p>
+    </section>
+
+    <section>
+        <h2>Horsham</h2>
+        <p>Hop Oast,Worthing Road,Horsham,West Sussex,RH13 0AR</p>
+        <p><a href="http://127.0.0.1:5500/Cadastro.html"target="_blank" rel="noopener noreferrer"><button>Selecione</button></a></p>
+
+    </section>
+
+    <section>
+        <h2>Littlehampton</h2>
+        <p>Mill Lane,Littlehampton,West Sussex,BN17 7PH</p>
+        <p><a href="http://127.0.0.1:5500/Cadastro.html"target="_blank" rel="noopener noreferrer"><button>Selecione</button></a></p>
+    </section>
+</header>
+        
+
+    <footer>
+        <p>&copy; 2023 Reciclagem Sustentável</p>
+    </footer>
+
+</body>
+
+
+     <div id="dov">
+        <img src="https://i0.wp.com/blog.cicloorganico.com.br/wp-content/uploads/2020/08/captura-de-tela-2020-08-20-as-07-49-08.jpg?fit=700%2C640&ssl=1"width= "150px" />
+     </div>
+
+</html>
